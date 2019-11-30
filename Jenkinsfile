@@ -1,5 +1,3 @@
-// Jenkinsfile
-
 pipeline {
   // Assign to docker slave(s) label, could also be 'any'
   agent {
@@ -21,4 +19,5 @@ pipeline {
         sh 'node --version'
       }
     }
+  }
   }
