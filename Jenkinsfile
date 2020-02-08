@@ -1,4 +1,5 @@
 pipeline {
+    agent{
     stages {
         stage('Test') {
             steps {
@@ -6,5 +7,6 @@ pipeline {
                 sh 'node --version'
             }
         }
+    }
     }
 }
