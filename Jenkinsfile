@@ -1,5 +1,5 @@
+echo $PATH
 pipeline {
-    echo $PATH
     agent {
         docker { image 'node:7-alpine' }
     }
